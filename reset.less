@@ -1,0 +1,34 @@
+::root {
+    box-sizing: border-box;
+    font-size: @font-size;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+// Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+// Correct `block` display not defined for `main` in IE 11.
+details,
+summary,
+main {
+    display: block;
+}
+
+// Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+progress {
+    vertical-align: baseline;
+}
+
+// Address `[hidden]` styling not present in IE 8/9/10.
+// Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+[hidden],
+template {
+    display: none;
+}
