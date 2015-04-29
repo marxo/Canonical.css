@@ -289,11 +289,15 @@ fieldset {
     padding: 0.35em 0.625em 0.75em;
 }
 /**
- * Remove default vertical scrollbar in IE 8/9/10/11.
+ * 1. Remove default vertical scrollbar in IE 8/9/10/11.
+ * 2. Disable textarea resize
  */
 
 textarea {
     overflow: auto;
+    /* 1 */
+    resize: none;
+    /* 2 */
 }
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
