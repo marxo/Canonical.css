@@ -6,6 +6,7 @@
 *:before,
 *:after {
   box-sizing: inherit;
+  position: relative;
 }
 body {
   margin: 0;
@@ -45,6 +46,13 @@ a:hover {
  */
 abbr[title] {
   border-bottom: 1px dotted;
+}
+/**
+ * Give a help cursor to elements that give extra info on `:hover`.
+ */
+abbr[title],
+dfn[title] {
+  cursor: help;
 }
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
@@ -206,6 +214,12 @@ input[type="search"] {
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
+}
+/* Responsive images and other embedded objects */
+img,
+object,
+embed {
+  max-width: 100%;
 }
 /**
  * Define consistent border, margin, and padding.
