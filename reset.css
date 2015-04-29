@@ -27,18 +27,18 @@ template {
   display: none;
 }
 /**
- * Remove the gray background color from active links in IE 10.
+ * 1. Remove the gray background color from active links in IE 10.
+ * 2. Improve readability of focused elements when they are also in an
+ * active/hover state.
  */
 a {
   background-color: transparent;
-  /**
-     * Improve readability of focused elements when they are also in an
-     * active/hover state.
-     */
+  /* 1 */
 }
 a:active,
 a:hover {
   outline: 0;
+  /* 2 */
 }
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
