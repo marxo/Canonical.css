@@ -273,7 +273,13 @@ input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 /* Hide clear button in Internet Explorer 10/11 */
+
 ::-ms-clear {
+    display: none;
+}
+/* Hide reveal password button in Internet Explorer 10/11 */
+
+::-ms-reveal {
     display: none;
 }
 /* Responsive images and other embedded objects */
@@ -300,6 +306,7 @@ fieldset {
 textarea {
     overflow: auto;
     /* 1 */
+
     resize: none;
     /* 2 */
 }

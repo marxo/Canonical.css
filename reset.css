@@ -239,6 +239,10 @@ input[type="search"]::-webkit-search-decoration {
 ::-ms-clear {
   display: none;
 }
+/* Hide reveal password button in Internet Explorer 10/11 */
+::-ms-reveal {
+  display: none;
+}
 /* Responsive images and other embedded objects */
 img,
 object,
