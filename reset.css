@@ -116,14 +116,20 @@ pre {
   overflow: auto;
 }
 /**
- * Address odd `em`-unit font size rendering in all browsers.
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1rem;
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.25rem;
+}
+sub {
+  bottom: -0.25rem;
 }
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
