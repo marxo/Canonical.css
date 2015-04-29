@@ -2,7 +2,7 @@
 /**
  * Setting box-sizing to border-box initially
  */
-::root {
+:root {
   box-sizing: border-box;
   font: 16px/1.5 sans-serif;
 }
