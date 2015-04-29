@@ -250,6 +250,12 @@ embed {
   max-width: 100%;
 }
 /**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/**
  * Define consistent border, margin, and padding.
  */
 fieldset {
