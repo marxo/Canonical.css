@@ -31,11 +31,11 @@ template {
  */
 a {
   background-color: transparent;
+  /**
+     * Improve readability of focused elements when they are also in an
+     * active/hover state.
+     */
 }
-/**
- * Improve readability of focused elements when they are also in an
- * active/hover state.
- */
 a:active,
 a:hover {
   outline: 0;
@@ -143,20 +143,16 @@ select {
   text-transform: none;
 }
 /**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
+ * 1. Correct inability to style clickable `input` types in iOS.
+ * 2. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-button,
-html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
-  /* 2 */
+  /* 1 */
   cursor: pointer;
-  /* 3 */
+  /* 2 */
 }
 /**
  * Re-set default cursor for disabled elements.
