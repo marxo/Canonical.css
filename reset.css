@@ -179,8 +179,17 @@ input[type="submit"] {
  * Re-set default cursor for disabled elements.
  */
 button[disabled],
-html input[disabled] {
+input[disabled] {
   cursor: default;
+}
+/**
+ * Reset button styling for disabled buttons
+ */
+button[disabled],
+input[type=submit][disabled] {
+  background-color: #f0f0f0;
+  border: 1px solid #d9d9d9;
+  padding: 2px 6px;
 }
 /**
  * Remove inner padding and border in Firefox 4+.
