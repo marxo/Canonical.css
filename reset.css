@@ -235,6 +235,10 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+/* Hide clear button in Internet Explorer 10/11 */
+::-ms-clear {
+  display: none;
+}
 /* Responsive images and other embedded objects */
 img,
 object,
