@@ -1,4 +1,4 @@
-# Canonical.less
-Normalization for modern browsers written in {LESS}
+# Canonical.css
+Normalization for modern browsers
 
-Ultimate reset of elements throught modern browser, without the legacy resets. Combo of best practices throughout the CSS ecosystem.
+Ultimate reset of elements throught modern browsers, without the legacy resets. Combo of best practices created from Normalize.css.
