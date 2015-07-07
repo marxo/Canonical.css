@@ -1,0 +1,32 @@
+{
+  "name": "canonical.css",
+  "version": "1.0.7",
+  "description": "Lightweight normalization for modern-day HTML5 browsers.",
+  "main": "canonical.min.css",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marxo/Canonical.css.git"
+  },
+  "keywords": [
+    "css",
+    "normalize",
+    "canonical",
+    "reset",
+    "html",
+    "html5",
+    "css3",
+    "browser"
+  ],
+  "author": "Marko Kazhich <marko.kazic@zamphyr.com> (http://marxo.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marxo/Canonical.css/issues"
+  },
+  "homepage": "https://github.com/marxo/Canonical.css"
+}
