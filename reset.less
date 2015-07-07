@@ -80,12 +80,16 @@ dfn[title] {
     cursor: help;
 }
 /**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ * 1. Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ * 2. Address bold text being misaligned vertically from parent elements.
  */
 
 b,
 strong {
+    /* 1 */
     font-weight: bold;
+    /* 2 */
+    vertical-align: baseline;
 }
 /**
  * Address styling not present in Safari and Chrome.
