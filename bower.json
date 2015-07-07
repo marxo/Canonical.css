@@ -1,18 +1,25 @@
 {
-  "name": "Canonical.less",
-  "version": "1.0.5",
-  "homepage": "https://github.com/marxo/canonical.less",
-  "authors": [
-    "Марко Кажић <marko_kazic@live.com>"
-  ],
-  "description": "Lightweight reset for modern browsers",
-  "main": "canonical.less",
-  "keywords": [
-    "reset",
-    "normalize",
-    "css",
-    "less",
-    "browser"
-  ],
-  "license": "MIT"
+    "name": "Canonical.less",
+    "version": "1.0.5",
+    "homepage": "https://github.com/marxo/canonical.less",
+    "authors": [
+        "Марко Кажић <marko_kazic@live.com>"
+    ],
+    "description": "Lightweight reset for modern browsers",
+    "main": "canonical.less",
+    "keywords": [
+        "reset",
+        "normalize",
+        "css",
+        "less",
+        "browser"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
 }
