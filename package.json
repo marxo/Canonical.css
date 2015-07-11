@@ -1,6 +1,6 @@
 {
   "name": "canonical.css",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Lightweight normalization for modern-day HTML5 browsers.",
   "main": "canonical.min.css",
   "repository": {

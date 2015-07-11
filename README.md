@@ -1,7 +1,8 @@
 # Canonical.css
-Normalization for modern browsers
+Canonical.css is a tailored and pragmatic reset for modern web projects, with support for modern browsers & commonly used elements. I'm a *every byte matters kind of a guy* so this reset, even though it grew out of Normalize.css
 
-Ultimate reset of elements throught modern browsers, without the legacy resets. Combo of best practices created from Normalize.css.
+## Notes on Normalize.css vs Canonical.css
+I'm a *every byte matters* kind of a guy. Normalize.css **is a reset** with the goal of normalizing HTML rendering across browsers. Canonical.css is a reset aimed at providing pragmatic and opinionated yet reversable kickstart for your modern CSS. Starting a web application project, I need `box-sizing: border-box` hack, while I most definitely don't need a `<dfn>` style definition. A vast majority of developers will need the same. Every byte matters. Finding this *golden mean* where we're not normalizing the whole HTML but we're integrating common practices is what Canonical.css will strive toward.
 
 ## Usage
 NPM `npm install canonical.css`
