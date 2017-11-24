@@ -10,6 +10,11 @@ Meteor `meteor add marxo:canonical.css`
 
 or simply download the [latest master](https://github.com/marxo/Canonical.css/archive/master.zip) and use the `canonical.css`
 
+## Compatibility
+Supports: Internet Explorer 11, Edge, Chrome ( + Yandex, Opera, Blink-based browsers), Firefox 28+, Safari 10+.
+
+Size comparisson: Canonical.css `~3.88kB`, Normalize.css `~7.54kB` (unminified)
+
 ## Contributing
 
 - PRs welcome
