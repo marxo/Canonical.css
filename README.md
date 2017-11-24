@@ -11,9 +11,6 @@ Meteor `meteor add marxo:canonical.css`
 or simply download the [latest master](https://github.com/marxo/Canonical.css/archive/master.zip) and use the `canonical.css`
 
 ## License
-Canonical.css - Lightweight CSS reset
-by Marko Kažić
-
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
      href="http://creativecommons.org/publicdomain/zero/1.0/">
@@ -30,4 +27,4 @@ This work is published from:
       content="RS" about="[_:publisher]">
   Serbia</span>.
 </p>
-You should have received a copy of the CC0 Public Domain Dedication along with this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+You should have received a copy of the CC0 Public Domain Dedication along with this software. If not, see [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/).
