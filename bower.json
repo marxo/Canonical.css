@@ -1,12 +1,12 @@
 {
     "name": "canonical.css",
-    "version": "1.1.1",
+    "version": "2.0.0",
     "homepage": "https://github.com/marxo/canonical.css",
     "authors": [
-        "Марко Кажић <marko_kazic@live.com>"
+        "Марко Кажић <marko.kazic@zamphyr.com>"
     ],
     "description": "Lightweight reset for modern browsers",
-    "main": "canonical.min.css",
+    "main": "canonical.css",
     "keywords": [
         "reset",
         "normalize",

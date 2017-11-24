@@ -1,11 +1,16 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>HTML5 Canonical.css Test</title>
-    <link rel="stylesheet" href="../canonical.min.css">
+    <link rel="stylesheet" href="../canonical.css">
 </head>
+
 <body>
+    <template name="test">
+        <p>Template test</p>
+    </template>
     <div id="top" class="page" role="document">
         <header role="banner">
             <h1>Canonical.css Test</h1>
@@ -55,7 +60,9 @@
 
         <main role="main">
             <section id="text">
-                <header><h1>Text</h1></header>
+                <header>
+                    <h1>Text</h1>
+                </header>
 
                 <article id="text__headings">
                     <header>
@@ -71,21 +78,30 @@
                         <h6>Heading 6</h6>
                     </div>
 
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="text__paragraphs">
-                    <header><h1>Paragraphs</h1></header>
+                    <header>
+                        <h1>Paragraphs</h1>
+                    </header>
 
                     <div>
-                        <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+                        <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not
+                            required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
                     </div>
 
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="text__blockquotes">
-                    <header><h1>Blockquotes</h1></header>
+                    <header>
+                        <h1>Blockquotes</h1>
+                    </header>
 
                     <div>
                         <blockquote>
@@ -95,11 +111,15 @@
                         </blockquote>
                     </div>
 
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="text__lists">
-                    <header><h1>Lists</h1></header>
+                    <header>
+                        <h1>Lists</h1>
+                    </header>
 
                     <div>
                         <h3>Definition list</h3>
@@ -123,21 +143,29 @@
                         </ul>
                     </div>
 
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="text__hr">
-                    <header><h1>Horizontal rules</h1></header>
+                    <header>
+                        <h1>Horizontal rules</h1>
+                    </header>
 
                     <div>
                         <hr>
                     </div>
 
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="text__tables">
-                    <header><h1>Tabular data</h1></header>
+                    <header>
+                        <h1>Tabular data</h1>
+                    </header>
 
                     <table>
                         <caption>Table Caption</caption>
@@ -193,11 +221,15 @@
                         </tbody>
                     </table>
 
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="text__syntax">
-                    <header><h1>Syntax</h1></header>
+                    <header>
+                        <h1>Syntax</h1>
+                    </header>
 
                     <div>
                         <p><strong>Keyboard input:</strong> <kbd>Cmd</kbd></p>
@@ -215,11 +247,15 @@ P Q R S T U V W X Y Z [ \ ] ^ _
 p q r s t u v w x y z { | } ~ </pre>
                     </div>
 
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="text__inline">
-                    <header><h1>Inline elements</h1></header>
+                    <header>
+                        <h1>Inline elements</h1>
+                    </header>
 
                     <div>
                         <p><a href="#!">This is a text link</a>.</p>
@@ -250,7 +286,8 @@ p q r s t u v w x y z { | } ~ </pre>
 
                         <p><cite>This is a citation.</cite>
 
-                        </p><p>The <dfn>dfn element</dfn> indicates a definition.</p>
+                        </p>
+                        <p>The <dfn>dfn element</dfn> indicates a definition.</p>
 
                         <p>The <mark>mark element</mark> indicates a highlight.</p>
 
@@ -259,18 +296,24 @@ p q r s t u v w x y z { | } ~ </pre>
                         <p>The time element: <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time></p>
                     </div>
 
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
             </section>
 
             <section id="embedded">
-                <header><h1>Embedded content</h1></header>
+                <header>
+                    <h1>Embedded content</h1>
+                </header>
 
                 <article id="embedded__images">
-                    <header><h2>Images</h2></header>
+                    <header>
+                        <h2>Images</h2>
+                    </header>
                     <div>
                         <h3>No <code>&lt;figure&gt;</code> element</h3>
-                        <p><img src="http://placekitten.com/480/480" alt="Image alt text"></p>
+                        <a href="#"><img src="http://placekitten.com/480/480" alt="Image alt text"></a>
                         <h3>Wrapped in a <code>&lt;figure&gt;</code> element, no <code>&lt;figcaption&gt;</code></h3>
                         <figure><img src="http://placekitten.com/420/420" alt="Image alt text"></figure>
                         <h3>Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>&lt;figcaption&gt;</code></h3>
@@ -279,48 +322,76 @@ p q r s t u v w x y z { | } ~ </pre>
                             <figcaption>Here is a caption for this image.</figcaption>
                         </figure>
                     </div>
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="embedded__audio">
-                    <header><h2>Audio</h2></header>
+                    <header>
+                        <h2>Audio</h2>
+                    </header>
                     <div><audio controls="">audio</audio></div>
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="embedded__video">
-                    <header><h2>Video</h2></header>
+                    <header>
+                        <h2>Video</h2>
+                    </header>
                     <div><video controls="">video</video></div>
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="embedded__canvas">
-                    <header><h2>Canvas</h2></header>
+                    <header>
+                        <h2>Canvas</h2>
+                    </header>
                     <div><canvas>canvas</canvas></div>
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="embedded__progress">
-                    <header><h2>Progress bars</h2></header>
+                    <header>
+                        <h2>Progress bars</h2>
+                    </header>
                     <div><progress>progress</progress></div>
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="embedded__svg">
-                    <header><h2>Inline SVG</h2></header>
+                    <header>
+                        <h2>Inline SVG</h2>
+                    </header>
                     <div><svg width="100px" height="100px"><circle cx="100" cy="100" r="100" fill="#1fa3ec"></circle></svg></div>
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
 
                 <article id="embedded__iframes">
-                    <header><h2>IFrames</h2></header>
+                    <header>
+                        <h2>IFrames</h2>
+                    </header>
                     <div><iframe src="http://marxo.me" width="100%" height="300" frameborder="0"></iframe></div>
-                    <footer><p><a href="#top">[Top]</a></p></footer>
+                    <footer>
+                        <p><a href="#top">[Top]</a></p>
+                    </footer>
                 </article>
             </section>
 
             <section id="forms">
-                <header><h1>Form elements</h1></header>
+                <header>
+                    <h1>Form elements</h1>
+                </header>
 
                 <form action="">
                     <fieldset id="forms__text">
@@ -471,4 +542,5 @@ p q r s t u v w x y z { | } ~ </pre>
         </footer>
     </div>
 </body>
+
 </html>
