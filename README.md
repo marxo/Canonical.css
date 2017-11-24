@@ -10,6 +10,10 @@ Meteor `meteor add marxo:canonical.css`
 
 or simply download the [latest master](https://github.com/marxo/Canonical.css/archive/master.zip) and use the `canonical.css`
 
+## Contributing
+
+- PRs welcome
+
 ## License
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
